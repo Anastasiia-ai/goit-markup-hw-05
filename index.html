@@ -331,7 +331,47 @@
                 </li>
             </ul>
         </div>
+        <div>
+            <p class="footer-h-p footer-subscr">Subscribe</p>
+            <form>
+                <label for="user-email" class="footer-input">
+                  <input type= "email" name="user-email">
+                </label>
+                <button class="footer-button">Subscribe
+                    <svg width="24" height="24" class="button-icon">
+                       <use href="./images/symbol.svg#Frame"></use>
+                    </svg>
+                </button>
+            </form>
+        </div>
      </div>  
     </footer>
+    <!-- =====MODAL==== dobavit  is-open -->
+     <div class="backdrop is-open">
+        <div class="modal">
+            <button class="button-close">
+                <svg width="24" height="24" class="close">
+                    <use href="./images/symbol.svg#close"></use>
+                </svg>
+            </button>
+            <p class="modal-p">Leave your contacts and we will call you back</p>
+            <div>
+                <form>
+                    <label for="user-name">
+                        <input type="text" name="user-name">
+                    </label>
+                    <label for="user-tel">
+                        <input type="tel" name="user-tel">
+                    </label>
+                    <label for="user-email-1">
+                        <input type="email" name="user-email-1">
+                    </label>
+                    <label for="user-comment">
+                        <input type="text" name="user-comment">
+                    </label>
+                </form>
+            </div>
+        </div>
+     </div>
 </body>
 </html>
