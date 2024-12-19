@@ -521,7 +521,6 @@ background-color: #2e2f42;
 }
 
 .backdrop {
-    padding: 72px 24px 24px 24px;
     position: fixed;
     top: 0;
     left: 0;
@@ -545,6 +544,7 @@ background-color: #2e2f42;
 }
 
 .modal {
+    padding: 72px 24px 24px 24px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -679,8 +679,7 @@ color:  rgba(46, 47, 66, 0.4);
 
 .form-wrraper-cont-comment {
     margin-bottom: 16px;
-    padding-right: 24px;
-    padding-left: 24px;
+   width: 100%;
 }
 
 .form-wrraper-checkbox {
