@@ -507,6 +507,7 @@ background-color: #404bbf;
 
 .button-icon {
     fill: #ffffff;
+    margin-left: 16px; 
 }
 
 .footer-button {
